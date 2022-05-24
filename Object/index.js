@@ -2,5 +2,9 @@
 
 let user = {
    //this is the property
-    name: 'Timi',  // while Timi is the value of the property
+    name: 'Timi',  
+    // while Timi is the value of the property
+    age:23,
+    job:"student",
+
 }
