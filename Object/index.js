@@ -6,5 +6,7 @@ let user = {
     // while Timi is the value of the property
     age:23,
     job:"student",
-
-}
+    location:'Nigeria',
+    email:'malikitimi@gmail.com',
+}   
+ console.log(user);
