@@ -10,3 +10,7 @@ let user = {
     email:'malikitimi@gmail.com',
 }   
  console.log(user);
+
+
+ user.name ='Maliki'
+ console.log(user.name);
