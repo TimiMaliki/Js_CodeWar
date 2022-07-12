@@ -17,8 +17,21 @@ var myVar = "Global" // declares a global
 
    sum = A + B;
     console.log (sum);
-
+// adding a number with a string
  let a = "a";
  b = "24";
  add = a + b;
   console.log(add);
+  // remainder 
+   let c = 6;
+    d = 3;
+     remain = c & d;
+     console.log(remain);
+
+     // comparison operand
+      let e = 10;
+      f = 12;
+
+      result = (a==b);
+      console.log(result);
+
