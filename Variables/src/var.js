@@ -18,4 +18,7 @@ var myVar = "Global" // declares a global
    sum = A + B;
     console.log (sum);
 
-    
+ let a = "a";
+ b = "24";
+ add = a + b;
+  console.log(add);
