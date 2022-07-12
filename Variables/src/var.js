@@ -30,8 +30,8 @@ var myVar = "Global" // declares a global
 
      // comparison operand
       let e = 10;
-      f = 12;
-
-      result = (a==b);
+      f = 10;
+  // if f = 12; then false
+      result = (e==f);
       console.log(result);
 
