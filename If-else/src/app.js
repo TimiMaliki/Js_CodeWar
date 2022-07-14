@@ -33,3 +33,7 @@ var book = "maths";
  else{
     document.write("unknown book")
 }
+
+// break case
+ var grade = "A";
+ document.write("you sabi  book")
