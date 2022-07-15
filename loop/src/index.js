@@ -7,7 +7,7 @@ document.write("start loop");
     count++;
  }
  document.write("stop loop");
- // the do..while loop
+ // the do.. loop
 
  var count = 0;
 document.write("start loop : " + "");
@@ -20,10 +20,14 @@ do{
     document.write("stop loop : " + "");
  }
 
- // the for..the while
+ // the for.. loop
  var count = 0;
  document.write("start counting");
   for( count = 0; count < 30; count++){
  document.write("continue "  + count)
   }
   document.write("stop counting")
+
+  //the for in..loop
+   var aProperty;
+   
