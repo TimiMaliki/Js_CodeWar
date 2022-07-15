@@ -22,6 +22,8 @@ do{
 
  // the for..the while
  var count = 0;
-  for( count = 0; count > 20; count++){
- document.write("")
+ document.write("start counting");
+  for( count = 0; count < 30; count++){
+ document.write("continue "  + count)
   }
+  document.write("stop counting")
