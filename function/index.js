@@ -1,14 +1,3 @@
-function sumUp(first,last){
-    let age;
-    age = first + last;
-}
-
-function secondFunction(){
-    let name;
-     name = sumUp('timi','maliki');
-     console.log();
-}
-
 function myAge(name ,age){
     let displayName;
 
@@ -16,6 +5,11 @@ function myAge(name ,age){
     console.log(displayName)
 }
 myAge("timi" ,27)
+
+function sumUp( first,last){
+    let full;
+    full =
+}
 
 
 
