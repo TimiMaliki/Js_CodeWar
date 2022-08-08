@@ -18,7 +18,7 @@ function sumUp( first,last){
     console.log(secondFunction);
  }
  
-function hypotenuse(a,b){
+/*function hypotenuse(a,b){
       function square(x)
       {
         return x*x; }
@@ -29,8 +29,19 @@ function hypotenuse(a,b){
 function secondFunction(){
  let doTimi;
  doTimi = hypotenuse(2,2);
+console.log(doTimi)
+}
+*/
+
+
+var func = new Function("x", "y", "return x*y;");
+function secondFunction(){
+let result;
+result = func(10,20);
+ document.write(result)
 
 }
+
 
 
 
