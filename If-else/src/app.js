@@ -42,8 +42,10 @@ var book = "maths";
     if( val >= 20 && val <= 10 ){
   return  "above"
     } 
-
+return "below"
   }
   test(30);
-  console.log(test)
+  
+ 
+
   
