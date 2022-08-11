@@ -26,8 +26,11 @@ function getConfirmed(){
 getConfirmed();
 
 function fetchValue(){
-    
+    let getVal = prompt('Enter Your Name :', 'your name');
+
+    document.write('check if you have :' + getVal)
 }
+fetchValue();
 
 
 
