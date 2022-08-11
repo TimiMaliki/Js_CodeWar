@@ -12,18 +12,23 @@ warn(Message());
 document.write('movies')
 */
 function getConfirmed(){
-    let retVal = confirm('do you wish to continue')
+    let retVal = confirm('do you wish to continue!')
     if(retVal =! true)// but if == click yes
     {
-       document.write('click yes');
+       document.write('click yes!');
        return true;
     }
     else{
-      document.write('ignore');
+      document.write('ignore!');
       return false;
     }
 }
 getConfirmed();
+
+function fetchValue(){
+    
+}
+
 
 
 
