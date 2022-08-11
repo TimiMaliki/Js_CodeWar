@@ -11,7 +11,7 @@ function warn(){
 warn(Message());
 document.write('movies')
 */
-function getConfrimed(){
+function getConfirmed(){
     let retVal = confirm('do you wish to continue')
     if(retVal =! true)// but if == click yes
     {
@@ -23,7 +23,7 @@ function getConfrimed(){
       return false;
     }
 }
-getConfrimed();
+getConfirmed();
 
 
 
