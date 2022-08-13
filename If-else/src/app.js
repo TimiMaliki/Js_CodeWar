@@ -37,3 +37,16 @@ var book = "maths";
 // break case
  var grade = "A";
  document.write("you sabi  book")
+ // the && operand 
+  function test(val){
+    if( val >= 20 && val <= 10 ){
+  "above"
+    } 
+    else{
+     "below"
+    }
+    
+  }
+  test(20);
+  console.log(test)
+  
