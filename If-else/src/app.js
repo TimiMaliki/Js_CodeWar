@@ -40,13 +40,10 @@ var book = "maths";
  // the && operand 
   function test(val){
     if( val >= 20 && val <= 10 ){
-  "above"
+  return  "above"
     } 
-    else{
-     "below"
-    }
-    
+
   }
-  test(20);
+  test(30);
   console.log(test)
   
