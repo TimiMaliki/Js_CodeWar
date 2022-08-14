@@ -8,10 +8,23 @@ let user = {
     job:"student",
     location:'Nigeria',
     email:'malikitimi@gmail.com',
+
+    //Methods
+    login:function(){
+        console.log('the user logged in');
+    },
+    logout:function(){
+        console.log('the user just logged out')
+        
+    }
 }   
- console.log(user);
+user.login();
+user.logout();
+
+
+// console.log(user);
 //typeof "string"
-console.log(typeof user['name']);
+//console.log(typeof user['name']);
 
  // bracket notation user['name'] = 'Maliki';
 //console.log(user['name']);
@@ -20,4 +33,6 @@ console.log(typeof user['name']);
 // const nigga = 'black';
  //user['nigga']
 // undefined console.log(user[nigga]);
+
+
 
