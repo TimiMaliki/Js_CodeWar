@@ -11,6 +11,6 @@ let user = {
 }   
  console.log(user);
 
-
- user.name ='Maliki'
- console.log(user.name);
+console.log(user['name'])
+ // i assigned a new name here! user.name ='Maliki'
+ //console.log(user.name);
