@@ -8,18 +8,21 @@ let user = {
     job:"student",
     location:'Nigeria',
     email:'malikitimi@gmail.com',
-
+    blogs:['why marvel movies are so good and coke is sugary'],
     //Methods
     login:function(){
         console.log('the user logged in');
     },
     logout:function(){
-        console.log('the user just logged out')
-        
+        //console.log('the user just logged out')
+    },
+    logBlogs:function(){
+              console.log(this.blogs)
     }
 }   
-user.login();
-user.logout();
+//user.login();
+//user.logout();
+user.logBlogs();
 
 
 // console.log(user);
