@@ -17,7 +17,11 @@ let user = {
         //console.log('the user just logged out')
     },
     logBlogs:function(){
-              console.log(this.blogs)
+          //    console.log(this.blogs)
+          console.log('this nigga has written the follow:');
+          this.blogs.forEach(blogs => {
+            console.log(blogs)
+          })
     }
 }   
 //user.login();
