@@ -11,6 +11,9 @@ let user = {
 }   
  console.log(user);
 
-console.log(user['name'])
+console.log(user['name']);
+ // bracket notation user['name'] = 'Maliki';
+//console.log(user['name']);
  // i assigned a new name here! user.name ='Maliki'
  //console.log(user.name);
+
