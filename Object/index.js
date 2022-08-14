@@ -10,10 +10,14 @@ let user = {
     email:'malikitimi@gmail.com',
 }   
  console.log(user);
+//typeof "string"
+console.log(typeof user['name']);
 
-console.log(user['name']);
  // bracket notation user['name'] = 'Maliki';
 //console.log(user['name']);
  // i assigned a new name here! user.name ='Maliki'
  //console.log(user.name);
+// const nigga = 'black';
+ //user['nigga']
+// undefined console.log(user[nigga]);
 
