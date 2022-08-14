@@ -8,7 +8,10 @@ let user = {
     job:"student",
     location:'Nigeria',
     email:'malikitimi@gmail.com',
-    blogs:['why marvel movies are so good and coke is sugary'],
+    blogs:[
+        {title:'10 facts about Fat', likes:30,},
+    {title:'20 ways to be rich', likes:60},
+    ],
     //Methods
     login:function(){
         console.log('the user logged in');
@@ -16,11 +19,11 @@ let user = {
     logout:function(){
         //console.log('the user just logged out')
     },
-    logBlogs:function(){
+    logBlogs(){
           //    console.log(this.blogs)
           console.log('this nigga has written the follow:');
           this.blogs.forEach(blogs => {
-            console.log(blogs)
+            console.log(blogs.title, blogs.likes)
           })
     }
 }   
