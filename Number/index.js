@@ -11,3 +11,7 @@ console.log( typeof max)
 let min = Number.MIN_VALUE;
 console.log(min)
 console.log( typeof min)
+
+// NaN ---Not a Number
+ let notANumber = Number.NaN;
+ console.log(notANumber);
