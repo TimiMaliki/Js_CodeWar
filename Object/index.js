@@ -50,12 +50,17 @@ console.log(Math.PI);
 console.log(Math.E);
 
 const area = 7.7;
+// Math.round it rounds up the decimal
 console.log(Math.round(area));
-// Math.floor
+// Math.floor it removes the decimal
 console.log(Math.floor(area));
-
-
-
+// Math.ceil it add one to integer
+console.log(Math.ceil(area));
+// Math.trunc it takes away the decimal and leaves the integer
+console.log(Math.trunc(area));
+// Math random
+const random = Math.random();
+console.log(random);
 
 
 
