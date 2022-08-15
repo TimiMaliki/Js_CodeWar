@@ -31,7 +31,6 @@ let user = {
 //user.logout();
 user.logBlogs();
 
-
 // console.log(user);
 //typeof "string"
 //console.log(typeof user['name']);
@@ -43,6 +42,14 @@ user.logBlogs();
 // const nigga = 'black';
  //user['nigga']
 // undefined console.log(user[nigga]);
+
+
+//Maths object
+console.log(Math);
+console.log(Math.PI);
+//console.log(Math.E);
+
+
 
 
 
