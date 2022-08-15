@@ -51,6 +51,9 @@ console.log(Math.E);
 
 const area = 7.7;
 console.log(Math.round(area));
+// Math.floor
+console.log(Math.floor(area));
+
 
 
 
