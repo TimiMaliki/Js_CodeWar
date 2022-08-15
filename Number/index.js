@@ -26,26 +26,24 @@ console.log( typeof min)
 
   // Negative_infinity is a speacial numeric value which is less than a number
 
- // let negInfinity = Number.NEGATIVE_INFINITY;
- // console.log(negInfinity);
+  let negInfinity = Number.NEGATIVE_INFINITY;
+  console.log(po);
 
-  //let smallVal = (-Number.MAX_VALUE) * 2
+
+  // Michael javascript assignment
+  // function med(cap){
+  //  let oneGram = new Number(1000);
+  //  fourGram = oneGram * 4;
+ //totalNumberOfCapsule = fourGram / cap;
+  // }
+ //  med(500)
+  //  console.log(totalNumberOfCapsule);
  
- // if( smallVal == NEGATIVE_INFINITY){
-  //  console.log("the value : " + smallVal)
-    
- // }
-
-  // michael javascript assignment
-   function med(cap){
-    let oneGram = new Number(1000);
-    fourGram = oneGram * 4;
- totalNumberOfCapsule = fourGram / cap;
-   }
-   med(500)
-    console.log(totalNumberOfCapsule);
+  // Positive_infinity is a speacial numeric value which is greater than a number
  
-
+  
+  let po = Number. POSITIVE_INFINITY;
+  console.log(po)
 
  
   
