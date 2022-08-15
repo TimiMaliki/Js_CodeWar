@@ -47,7 +47,7 @@ user.logBlogs();
 //Maths object
 console.log(Math);
 console.log(Math.PI);
-//console.log(Math.E);
+console.log(Math.E);
 
 
 
