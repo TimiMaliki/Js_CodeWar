@@ -41,9 +41,23 @@ console.log( typeof min)
  
   // Positive_infinity is a speacial numeric value which is greater than a number
  
+  // my code stopped running here
   
   let po = Number. POSITIVE_INFINITY;
   console.log(po)
+
+  //num.toExponential
+    let num = 77.1234;
+    expo = num.toExponential(2);
+
+    console.log("77.1234.toExponential()is : " + val);
+
+    //toFIxed()
+
+    let fixed = 177.1234;
+     to = fixed.toFixed();
+
+     console.log(to)
 
  
   
