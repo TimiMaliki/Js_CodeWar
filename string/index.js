@@ -11,3 +11,5 @@ console.log(str.toUpperCase());
 console.log(str.toLowerCase());
 //the charAt method  get the character of the string
 console.log(str.charAt(2))
+//the indexOf method  get the index of the string
+console.log(str.indexOf("n"))
