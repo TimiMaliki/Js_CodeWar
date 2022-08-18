@@ -3,7 +3,9 @@
  var str = new String( "This is string" );
 console.log(str.length);
 
-//Sting Method
+//Sting Methods
 
-//the toUppercase method
+//the toUpperCase method
 console.log(str.toUpperCase())
+//the toLowerCase method
+console.log(str.toLowerCase())
