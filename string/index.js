@@ -13,3 +13,10 @@ console.log(str.toLowerCase());
 console.log(str.charAt(2))
 //the indexOf method  get the index of the string
 console.log(str.indexOf("n"))
+//the lastindexOf method  get the index of the string
+console.log(str.lastIndexOf("g"))
+//the substring method can contain two parameters
+console.log(str.substring(0,9))
+console.log(str.substring(str.indexOf('r') , str.length))
+//the endsWith method return if the string at the end is true or false
+console.log(str.endsWith('string'))
