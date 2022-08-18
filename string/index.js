@@ -28,5 +28,9 @@ console.log(str.includes('ring'))
 //concat to add string
 console.log(str + " " + ring)   //OR
  console.log(str.concat(ring))
+// match method
+console.log(str.match(/ring/g))
+// repeat literlly  repeats words
+console.log(str.repeat(2))
 
 
