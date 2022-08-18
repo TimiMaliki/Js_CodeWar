@@ -24,4 +24,6 @@ console.log(str.endsWith('string'))
 let ring = "yea"
 //the includes method return if the string at the end is true or false
 console.log(str.includes('ring'))
+//concat
+console.log(str + " " + ring)
 
