@@ -40,5 +40,8 @@ console.log(str.search('ing'))
 console.log(str.slice(2,4))
 //split method is actually going to split words into an array
 console.log(str.split(""))
+//startswith this method select this first word in a string and returns if its true/false
+console.log(str.startsWith("This")) //("go") returned false
+//
 
 
