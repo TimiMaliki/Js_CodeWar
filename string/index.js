@@ -32,5 +32,9 @@ console.log(str + " " + ring)   //OR
 console.log(str.match(/ring/g))
 // repeat literlly  repeats words
 console.log(str.repeat(2))
+//replace actually replace a word in a string
+console.log(str.replace(/string/g, "A ring"))
+//search ,this search for a string and position index
+console.log(str.search('ing'))
 
 

@@ -13,7 +13,6 @@ let val = new Boolean(true);
     this.title = title;
     this.author = author;
     this.price = price;
-
  };
  
     
