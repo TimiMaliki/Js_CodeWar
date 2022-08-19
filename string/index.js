@@ -36,5 +36,7 @@ console.log(str.repeat(2))
 console.log(str.replace(/string/g, "A ring"))
 //search ,this search for a string and position index
 console.log(str.search('ing'))
+//slice method 
+console.log(str.slice(2,4))
 
 
