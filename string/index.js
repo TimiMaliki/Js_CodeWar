@@ -44,6 +44,7 @@ console.log(str.split(""))
 console.log(str.startsWith("This")) //("go") returned false
 //substr
 console.log(str.substr(2,4))
-
+//trim method removes white space
+console.log(str.trim())
 
 
