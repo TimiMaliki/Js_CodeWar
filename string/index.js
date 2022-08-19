@@ -42,6 +42,8 @@ console.log(str.slice(2,4))
 console.log(str.split(""))
 //startswith this method select this first word in a string and returns if its true/false
 console.log(str.startsWith("This")) //("go") returned false
-//
+//substr
+console.log(str.substr(2,4))
+
 
 
