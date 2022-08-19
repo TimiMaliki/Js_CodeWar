@@ -38,5 +38,7 @@ console.log(str.replace(/string/g, "A ring"))
 console.log(str.search('ing'))
 //slice method 
 console.log(str.slice(2,4))
+//split method is actually going to split words into an array
+console.log(str.split(""))
 
 
