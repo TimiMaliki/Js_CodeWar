@@ -27,5 +27,15 @@ console.log(date2.getDate());
 let myDay = date2.getDay();
  console.log(myDay);
 
+ //The full year method ---getFullYear() method
+/**
+ * the getFullYear methods gets the year
+ * so you can set the year with the .setYear
+ */
+ date2.setYear(1999);
+
+let myFullYear = date2.getFullYear();
+console.log(myFullYear)
+
 
 
