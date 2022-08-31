@@ -37,5 +37,22 @@ let myDay = date2.getDay();
 let myFullYear = date2.getFullYear();
 console.log(myFullYear)
 
+/** A program that get the millsecond of a time */
+
+let start = new Date();
+ doSomething();
+
+let end = new Date();
+
+let theDifference = end.getTime() - start.getTime();
+
+console.log(theDifference);
+
+function doSomething(){
+   for( i = 0; i < 1000 ; i++){
+
+   }
+};
+
 
 
