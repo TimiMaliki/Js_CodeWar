@@ -1,7 +1,7 @@
  /**
   * This section is for Date
   * you can add parameters to the Date()
-  * e.g (2022, 9(which is September), 3,43,43,23)
+  * e.g (2022, 9(which is September), 3,23,23,23)
   */
 
  let date1 = new Date();
