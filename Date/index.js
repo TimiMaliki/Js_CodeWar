@@ -49,7 +49,7 @@ let theDifference = end.getTime() - start.getTime();
 console.log(theDifference);
 
 function doSomething(){
-   for( i = 0; i < 10000 ; i++){
+   for( i = 0; i < 100000 ; i++){
 
    }
 };
