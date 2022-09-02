@@ -5,6 +5,10 @@
   */
 
  let date1 = new Date();
+
+ let myBirthDay = new Date("11,5,1999");
+
+console.log(myBirthDay.toDateString());
  /***
   * toDateString  help shows the date 
   * while toTime String return the value to a string
@@ -15,10 +19,11 @@
  //Date Methodd ---getDate method
 
  /**
-  * THE getDaate method gets the date of the month
+  * THE getDate method gets the date of the month
   */
 let date2 = new Date("9/28/2022");
 console.log(date2.getDate());
+
 
 //The Day method ---getDay() method
 /**
@@ -55,4 +60,5 @@ function doSomething(){
 };
 
 
+console.log(myBirthDay.getDay())
 
