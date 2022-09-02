@@ -9,6 +9,12 @@
  let myBirthDay = new Date("11,5,1999");
 
 console.log(myBirthDay.toDateString());
+console.log(myBirthDay.getDay());
+console.log(myBirthDay.getMonth());
+console.log(myBirthDay.getFullYear());
+console.log(myBirthDay.getTime());
+
+
  /***
   * toDateString  help shows the date 
   * while toTime String return the value to a string
@@ -59,6 +65,4 @@ function doSomething(){
    }
 };
 
-
-console.log(myBirthDay.getDay())
 
