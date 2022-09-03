@@ -145,5 +145,35 @@ console.log(largest)
 
 
 
+    /***
+ * @param(Number) logTen
+ * The  Math.LN10
+ * natural logarithm of 10
+ */
+
+    let logTen = Math.LN10;
+    console.log(logTen)
+
+   /***
+ * @param(Number) logTwoE
+ * The  Math.Log2E
+ * It returns the base 2 logarithm of E which is approximately 1.442.
+ */
+
+   let logTwoE = Math.LOG2E;
+
+   console.log(logTwoE);
+
+
+      /***
+ * @param(Number) logTwoE
+ * The  Math.Log210E
+ * It returns the base 10 logarithm of E which is approximately 0.434.
+ */
+   
+    
+
+
+
 
   
