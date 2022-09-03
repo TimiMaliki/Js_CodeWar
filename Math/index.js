@@ -166,11 +166,17 @@ console.log(largest)
 
 
       /***
- * @param(Number) logTwoE
+ * @param(Number) logTenE
  * The  Math.Log210E
  * It returns the base 10 logarithm of E which is approximately 0.434.
  */
    
+      let logTenE = Math.LOG10E
+
+      //Math.sqrt1_2
+
+      let squareroot1 = Math.SQRT1_2;
+      console.log(squareroot1)
     
 
 
