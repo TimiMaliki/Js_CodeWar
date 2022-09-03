@@ -47,7 +47,7 @@ console.log(PI);
  * The  Math.random
  * this method generates random numbers
  */
- let random = Math.random()
- console.log(random.toFixed(2))
+ let random = Math.random().toFixed(1) * 10
+ console.log(random)
 
   
