@@ -121,5 +121,29 @@ console.log(largest)
 
 
 
+     /***
+ * @param(Number) sine
+ * The  Math.sin
+ * this method gets the absolute value of a number
+ */
+      let sine = Math.sin(30)
+      console.log(sine)
+
+      //This is an Euler's constant and the base of natural logarithms, approximately 2.718.
+
+      let Euler = Math.E;
+      console.log(Euler)
+
+    /***
+ * @param(Number) logTwo
+ * The  Math.LN2
+ * natural logarithm of 2
+ */
+
+    let logTwo = Math.LN2;
+    console.log(logTwo)
+
+
+
 
   
