@@ -111,5 +111,15 @@ console.log(largest)
 
 
 
+     /***
+ * @param(Number) abs
+ * The  Math.abs
+ * this method gets the absolute value of a number
+ */
+      let absolute = Math.abs(49)
+      console.log(absolute)
+
+
+
 
   
