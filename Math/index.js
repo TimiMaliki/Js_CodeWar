@@ -3,6 +3,11 @@
  */
 
 //Math Object
+
+/***
+ * @param(Number) PI
+ * The  Math.PI
+ */
 const PI = Math.PI;
 console.log(PI);
  let toDecimalPlace = PI.toFixed(2)
