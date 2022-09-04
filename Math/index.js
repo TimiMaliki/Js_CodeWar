@@ -177,7 +177,41 @@ console.log(largest)
 
       let squareroot1 = Math.SQRT1_2;
       console.log(squareroot1)
-    
+
+      //Math.sqrt2
+
+      let squareroot2 = Math.SQRT2;
+
+      console.log(squareroot2);
+
+      /**
+       * the acos
+       * @param (number) acos
+       */
+
+      let acos1= Math.acos(1);
+      console.log(acos1);
+      let acosNegative1 = Math.acos(-1);
+      console.log(acosNegative1);
+      let acosZero = Math.acos(0);
+      console.log(acosZero);
+
+
+      // the acsine
+
+      let asin = Math.asin(-1);
+
+      console.log(asin);
+
+
+    // the actan
+
+    let atan1 = Math.atan(30)
+    let atan2 = Math.atan(1)
+    let atan3 = Math.atan(-1)
+    let atan4 = Math.atan(0.5)
+
+    console.log(atan1,atan2,atan3,atan4)
 
 
 
