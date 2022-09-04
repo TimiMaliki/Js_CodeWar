@@ -213,6 +213,11 @@ console.log(largest)
 
     console.log(atan1,atan2,atan3,atan4)
 
+    // the atan2
+
+    let theTan2 = Math.atan2(50, 30)
+    console.log(theTan2)
+
 
 
 
