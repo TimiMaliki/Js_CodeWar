@@ -10,6 +10,7 @@ let Books = [
     {name:'Atomic Habits' , Year: 2000 , favourites: 'favourite' , soldYears:2020},
     {name:'Power Of the mind' , Year: 2000 , soldYears:2022} , 
     {name:'Power Of the God' , Year: 2000 , soldYears:2023}, 
+    {name:'48 Laws of Power' , Year: 2000 , soldYears:2010},
 
 ]
 
@@ -78,7 +79,72 @@ const seventies = Books.filter(sevens => (sevens.Year < 1800))
 
 // get if the sold years lasted 10 years
 
-const sold = Books.filter(sell => (sell.soldYears - sell.Year >= 30))
+const sold = Books.filter(sell => (sell.soldYears - sell.Year >= 10))
 
 
-console.log(sold);
+// console.log(sold);
+
+// filter end
+
+
+
+
+//...map
+
+
+const formatBooksArrangement = Books.map(mybook => (`${mybook.name} ,  ${mybook.Year} - ${mybook.soldYears}`))
+
+// multiple the score results
+
+const multipyScore = scores
+.map(multipy => (multipy * 2))
+.map(multipy => Math.sqrt(multipy))
+
+// console.log(multipyScore);
+
+
+//...sort 
+
+// const sortByYear = Books.sort((sortOne.soldYears , sortTwo.soldYears))
+// if( sortOne.soldYears > sortTwo.soldYears){
+//     return 1
+//     }
+//     else{
+//         return -1
+//   illegal return  }
+
+
+const sortByYear = Books.sort((a,b) => (a.soldYears > b.soldYears ? 1 : -1))
+
+    // scores 
+
+    const sortScores = scores.sort((a,b)  => a-b)
+
+// console.log(sortScores);
+
+
+
+
+// ..reduce
+
+
+const totalScores = scores.reduce((total , totalResult) => total + totalResult ,0)
+
+// total Sold Years
+
+ const totalSoldYears = Books.reduce((total , sumYears) =>  total + (sumYears.soldYears- sumYears.Year), 0)
+// console.log(totalSoldYears);
+
+
+
+// combined
+
+
+
+const combinedMap = scores
+.map(numbers => numbers * 3)
+.sort((a,b) => a-b)
+.filter(results => (results >= 20))
+.reduce((a,b) => a + b ,0)
+
+console.log(combinedMap);
