@@ -113,7 +113,7 @@ const multipyScore = scores
 //         return -1
 //   illegal return  }
 
-
+// this arranges in a specify order either decending or ascending
 const sortByYear = Books.sort((a,b) => (a.soldYears > b.soldYears ? 1 : -1))
 
     // scores 
