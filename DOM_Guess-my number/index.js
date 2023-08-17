@@ -9,19 +9,28 @@ const highScore = document.querySelector(".highscore");
 const again = document.querySelector(".again");
 
 let score = 30;
+let newHigherscore; 
 
 check.addEventListener("click", (e) => {
   const guessing = Number(guess.value);
 
   if (!guessing) {
     document.querySelector(".message").textContent = "No Message";
-  } else if (guessing === randomNumber) {
+  } else if (guessing === randomNumber) {   //when the guess number is equal to the random number you win!
     number.textContent = randomNumber;
+    //changes the text to you are a winner
     document.querySelector(".message").textContent = "Correct Number";
+    //changes the bg color
     document.querySelector("body").style.background = "blue";
+    //updates the new highscore
+    newHigherscore = document.querySelector(".highscore").textContent = `${score}`
+
+
   } else if (guessing > randomNumber) {
-    if (score > 1) {
+    if (score > 1) {  //when the guess is greater than the random number
+      //changes the text to too high
       document.querySelector(".message").textContent = "Too high";
+      //subtracts the score value by 1
       score--;
       Label_score.textContent = `score: ${score}`;
     } else {
@@ -47,4 +56,5 @@ check.addEventListener("click", (e) => {
   document.querySelector(".message").textContent = "Start Guessing";
   document.querySelector("body").style.background = "black";
   document.querySelector(".guess").value = ''
+  document.querySelector(".highscore").textContent = newHigherscore
 });
