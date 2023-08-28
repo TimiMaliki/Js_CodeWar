@@ -120,7 +120,8 @@ const obj = { a: 23, b: 7, c: 34 };
 
 ({ a, b } = obj);
 
-console.log(a, b);
+
+// console.log(a, b);
 //nested objects
 
 const {
@@ -216,4 +217,50 @@ add(2,1,2,3,4,5,5)
 //spread unpack
 const x = [1,2,3,4,4,5]
 add(...x)
+
+
+//short circuit
+//they can use any data type, return any data type
+//short-circuiting
+//the or operator in a short circuiting means that if the
+// the first operant is true then its true
+
+console.log(`----OR---- circuit`)
+console.log(3 || `jonas` )
+console.log('' || `jonas` )
+console.log( true || 0 )
+console.log( undefined || null )
+console.log(undefined || 0 || '' || null || 'Hello' || 23 )
+
+restaurant.numGuess = 23
+
+const guestOne = restaurant.numGuess ? restaurant.numGuess : 12
+
+console.log(guestOne)
+
+const guessTwo  = restaurant.numGuess || 12
+console.log(guessTwo)
+
+console.log(`----OR---- circuit`)
+
+console.log(`----AND---- circuit`)
+
+//the And operand is the exact opposite of the OR operand
+//which means that the AND operand return if the first value is false
+
+console.log(0 && 'jonas')
+console.log(7 && 'jonas')
+console.log("hello" && 23 && null && 'jonas')
+
+//practical example
+
+if(restaurant.orderPasta){
+   console.log(restaurant.orderPasta(`mushroom ,cake m`))
+}
+else{
+    console.log(`im not afraid`)
+}
+
+const u = restaurant.orderPasta && restaurant.orderPasta(`mushroom ,cake and coke`)
+console.log(u)
 
