@@ -137,3 +137,8 @@ console.log(badArr)
 const betterArr = [4,5,6, ...arr]
 
 console.log(...betterArr)
+
+const newArr = [...restaurant.mainMenu , 'ice-cream']
+console.log(newArr)
+//copy array
+
