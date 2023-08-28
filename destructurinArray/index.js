@@ -130,34 +130,34 @@ console.log(o, c);
 
 //spread operator
 
-const arr = [7, 8, 9];
-const badArr = [4, 5, 6, arr[0], arr[1], arr[2]];
+// const arr = [7, 8, 9];
+// const badArr = [4, 5, 6, arr[0], arr[1], arr[2]];
 
-console.log(badArr);
+// console.log(badArr);
 
-const betterArr = [4, 5, 6, ...arr];
+// const betterArr = [4, 5, 6, ...arr];
 
-console.log(...betterArr);
+// console.log(...betterArr);
 
-const newArr = [...restaurant.mainMenu, "ice-cream"];
-console.log(newArr);
+// const newArr = [...restaurant.mainMenu, "ice-cream"];
+// console.log(newArr);
 
-//copy array
-const mainMenuCopy = [...restaurant.mainMenu];
+// //copy array
+// const mainMenuCopy = [...restaurant.mainMenu];
 
-//join 2 arrays
+// //join 2 arrays
 
-const menuCopy = [...restaurant.mainMenu, ...restaurant.starterMenu];
+// const menuCopy = [...restaurant.mainMenu, ...restaurant.starterMenu];
 
-console.log(menuCopy);
+// console.log(menuCopy);
 
-//iterates: arrays, strings, maps,sets, Not objects
+// //iterates: arrays, strings, maps,sets, Not objects
 
-const str = 'Jonas';
-const letters = [...str, '' , 's.'];
-console.log(letters);
-console.log(...str)
-console.log('jonas')
+// const str = 'Jonas';
+// const letters = [...str, '' , 's.'];
+// console.log(letters);
+// console.log(...str)
+// console.log('jonas')
 
 //real-world example
 // const ingredients = [prompt(`let\'s make a pasta!
@@ -182,6 +182,8 @@ console.log(newRestuarant)
 
 //Rest Pattern
 
+//Destructuring
+
 //SPREAD, because on Right side of =
 
 const arrSpread = [1,2, ...[3,4]]
@@ -195,5 +197,6 @@ console.log( f,g ,others)
 const [pizza, ,risotto , ...otherFood] = [...restaurant.mainMenu,
 ...restaurant.starterMenu]
 
-
+const {sat , ...weekDays} = restaurant.openingHours
+console.log(weekDays)
 
