@@ -270,4 +270,38 @@ add(...x)
 
  console.log(guess)
 
+ //Logical Assignment Operators
+
+ const rest1 = {
+    name:'plazo',
+    numGuest:0,
+    // numGuest:10,
+ }
+
+ const rest2 = {
+    owner:'Timi',
+    networth:"40billion"
+ }
+
+ //OR LOGICAL ASSIGNMENT OPERATOR
  
+//  rest1.numGuest = rest1.numGuest || 20
+//  rest2.numGuest = rest2.numGuest || 10
+
+//  rest1.numGuest ||= 20;
+//  rest2.numGuest ||= 10;
+
+//Nullish assignment operators
+
+//  rest1.numGuest ??= 20;
+//  rest2.numGuest  ??= 10;
+
+ // AND logical operator
+//  rest1.owner =  rest1.owner && 'you!';
+//  rest2.owner =  rest2.owner && 'you!';
+
+rest1.owner  &&=  'you!';
+rest2.owner  &&= 'you!';
+
+
+ console.log(rest1 ,rest2)
