@@ -82,6 +82,13 @@ const restaurant = {
     console.log(`order received! ${this.starterMenu[starterIndex]}
     , ${this.mainMenu[mainIndex]} will be delivered at ${address} ,exactly${time}... prompt`);
   },
+
+  orderPasta: function(ing1,ing2,ing3){
+   console.log(`here is your delicious pasta with ${ing1}
+   ${ing2} and ${ing3}`)
+
+  }
+
 };
 
 restaurant.orderDelivery({
@@ -145,3 +152,31 @@ const menuCopy = [...restaurant.mainMenu, ...restaurant.starterMenu];
 console.log(menuCopy);
 
 //iterates: arrays, strings, maps,sets, Not objects
+
+const str = 'Jonas';
+const letters = [...str, '' , 's.'];
+console.log(letters);
+console.log(...str)
+console.log('jonas')
+
+//real-world example
+// const ingredients = [prompt(`let\'s make a pasta!
+// ingredient 1?`),
+
+// prompt(`let\'s make a pasta!
+// ingredient 2?`),
+
+// prompt(`let\'s make a pasta!
+// ingredient 3?`)
+
+// ]
+
+// restaurant.orderPasta(...ingredients)
+
+//objects
+
+const newRestuarant = {foundedIn:1998,
+...restaurant, founder:'Timi'}
+
+console.log(newRestuarant)
+
