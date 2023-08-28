@@ -182,7 +182,7 @@ console.log(newRestuarant)
 
 //Rest Pattern
 
-//Destructuring
+// 1) Destructuring
 
 //SPREAD, because on Right side of =
 
@@ -199,4 +199,21 @@ const [pizza, ,risotto , ...otherFood] = [...restaurant.mainMenu,
 
 const {sat , ...weekDays} = restaurant.openingHours
 console.log(weekDays)
+
+//2) function
+//Rest packed
+const add = function(...numbers){
+   let sum = 0
+   for(let i = 0 ; i<numbers.length ; i++)
+   sum += numbers[i]
+
+console.log(sum)
+}
+add(2,3);
+add(5,4,32,4,3)
+add(2,1,2,3,4,5,5)
+
+//spread unpack
+const x = [1,2,3,4,4,5]
+add(...x)
 
