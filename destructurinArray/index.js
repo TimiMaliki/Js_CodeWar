@@ -125,3 +125,6 @@ console.log(a,b);
 
 const {fri:{open:o,close:c}} = openingHours 
 console.log(o,c)
+
+
+//spread operator
