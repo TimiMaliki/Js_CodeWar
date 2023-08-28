@@ -180,3 +180,20 @@ const newRestuarant = {foundedIn:1998,
 
 console.log(newRestuarant)
 
+//Rest Pattern
+
+//SPREAD, because on Right side of =
+
+const arrSpread = [1,2, ...[3,4]]
+
+
+//Rest, because on the left side of =
+const [f,g, ...others] = [1,2,3,4,5]
+
+console.log( f,g ,others)
+
+const [pizza, ,risotto , ...otherFood] = [...restaurant.mainMenu,
+...restaurant.starterMenu]
+
+
+
