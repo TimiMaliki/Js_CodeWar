@@ -128,3 +128,12 @@ console.log(o,c)
 
 
 //spread operator
+
+const arr = [7,8,9];
+const badArr = [4,5,6,arr[0],arr[1],arr[2]]
+
+console.log(badArr)
+
+const betterArr = [4,5,6, ...arr]
+
+console.log(...betterArr)
