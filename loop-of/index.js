@@ -29,4 +29,9 @@ const values = Object.values(myObj)
 
 console.log(values)
 
- for( const mj of Object.keys(myObj)) console.log(mj)
+ for( const mj of Object.keys(myObj)) 
+ console.log(mj)
+
+ const entry = Object.entries(myObj)
+
+ console.log(entry)
