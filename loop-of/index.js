@@ -16,13 +16,17 @@
     //looping objects
 
  const myObj= {
-    thursday:'thursday',
-    friday:'friday',
-    saturday:'saturday'
+    thursday:'thur',
+    friday:'fri',
+    saturday:'sat'
  }
 
  const days = Object.keys(myObj)
 
  console.log(days.length)
+
+const values = Object.values(myObj)
+
+console.log(values)
 
  for( const mj of Object.keys(myObj)) console.log(mj)
