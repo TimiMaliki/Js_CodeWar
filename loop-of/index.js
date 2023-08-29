@@ -8,5 +8,5 @@
      const arr = [2,5,6]
 
      for (const item of arr.entries()){
-         console.log([...arr.entries()])
+         console.log(`${item[0] + 1}: yams and  ${arr[1] + 1}goats `)
      }
