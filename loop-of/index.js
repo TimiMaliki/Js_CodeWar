@@ -9,5 +9,20 @@
 
      for (const [i,el] of arr.entries()){
         //  console.log(`${item[0] + 1}: yams and  ${arr[1] + 1}goats `)
-        console.log(`${i+ 1}:yams  ${el}`)
-     }
+        console.log(`${i}:yams  ${el}`)
+    }
+
+
+    //looping objects
+
+ const myObj= {
+    thursday:'thursday',
+    friday:'friday',
+    saturday:'saturday'
+ }
+
+ const days = Object.keys(myObj)
+
+ console.log(days.length)
+
+ for( const mj of Object.keys(myObj)) console.log(mj)
