@@ -1,0 +1,1 @@
+ const setter = map.set
