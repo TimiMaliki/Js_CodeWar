@@ -23,7 +23,7 @@ text.addEventListener('click', ()=>{
 
 
 emails.addEventListener("click" , ()=>{
-    fetch('usersApi.json')
+    fetch('https://mylist-cb686-default-rtdb.firebaseio.com')
     .then((res) =>{
        return res.json()
     })
@@ -31,10 +31,7 @@ emails.addEventListener("click" , ()=>{
         let out = "<h2>users</h2>"
        data.forEach(items => {
         out += `
-            <li>ID:${items.id}</li>
-            <li>ID:${items.name}</li>
-            <li>ID:${items.username}</li>
-            <li>ID:${items.address['street']}</li>
+            <li>ID:${items.firstName}</li>
         `
        });
        output.innerHTML = out
@@ -43,7 +40,8 @@ emails.addEventListener("click" , ()=>{
 
 
 users.addEventListener("click" , ()=>{
-    fetch('https://jsonplaceholder.typicode.com/users')
+    fetch('https://mylist-cb686-default-rtdb.firebaseio.com')
+
     .then((res) =>{
        return res.json()
     })
@@ -51,10 +49,8 @@ users.addEventListener("click" , ()=>{
         let out = "<h2>usersItems</h2>"
        data.forEach(user => {
         out += `
-            <li>ID:${user.id}</li>
-            <li>ID:${user.name}</li>
-            <li>ID:${user.username}</li>
-            <li>ID:${user.address['city']}</li>
+          
+            <li>ID:${user.lastName}</li>
         `
        });
        output.innerHTML = out

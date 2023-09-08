@@ -33,5 +33,29 @@
     </form>
 
     <script src="./index.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCFidyA9lk55bpY2QGPfMK5NAeT9kQq3FM",
+        authDomain: "mylist-cb686.firebaseapp.com",
+        databaseURL: "https://mylist-cb686-default-rtdb.firebaseio.com",
+        projectId: "mylist-cb686",
+        storageBucket: "mylist-cb686.appspot.com",
+        messagingSenderId: "456070233956",
+        appId: "1:456070233956:web:58b273c23a24c4ef980471",
+        measurementId: "G-7NL4Z4CT7F"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
