@@ -1,6 +1,6 @@
-const contentEl = document.querySelector('.content')
-const inputEl = document.querySelector('.input')
-const btn = document.querySelector('.submit')
+// const contentEl = document.querySelector('.content')
+// const inputEl = document.querySelector('.input')
+// const btn = document.querySelector('.submit')
 
 
 
